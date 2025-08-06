@@ -1,0 +1,4 @@
+if(logedin)
+        res.redirect('/')
+    else
+        res.redirect('/log-in')
