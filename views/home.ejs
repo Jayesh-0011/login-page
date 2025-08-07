@@ -1,11 +1,228 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CGPA Calculator</title>
+    <link rel="stylesheet" href="stylesheets/home/style.css">
+    <link rel="stylesheet" href="stylesheets/home/nav.css">
+    <link rel="stylesheet" href="stylesheets/home/form.css">
+    <link rel="stylesheet" href="stylesheets/home/btn.css">
+    <link rel="stylesheet" href="stylesheets/home/box.css">
+
 </head>
+
 <body>
-    <h1>You have used cookies and loged in successfully</h1>
+    <h1>CGPA Calculator</h1>
+    <h2 id="cg">CGPA: </h2>
+    <button class="cal">Calculate</button>
+    <div class="box">
+        <button class="semester" id="1">sem1</button>
+        <button class="semester" id="2">sem2</button>
+        <button class="semester" id="3">sem3</button>
+        <button class="semester" id="4">sem4</button>
+        <button class="semester" id="5">sem5</button>
+        <button class="semester" id="6">sem6</button>
+        <button class="semester" id="7">sem7</button>
+        <button class="semester" id="8">sem8</button>
+    </div>
+    <div class="sem">
+        <div id="sem1" class="se">
+            <h2>Semester 1</h2>
+            <h3 class="sg">SGPA: </h3>
+
+            <form action="submit.php">
+               
+                    <div class="form">
+                        <div class="subject">
+                            <input type="text" name="subject1" placeholder="Enter the subject" autofocus>
+                        </div>
+                        <div class="credit">
+                            credit:
+                            <input type="number" name="credits1" class="credit1">
+                        </div>
+                        <div class="grade">
+                            grade:
+                            <input type="number" name="grades1" class="grade1" >
+                        </div>
+                        <button type="button" class="minus-button">-</button>
+                    </div>
+                    
+                <button type="button" class="plus-button">+</button>
+            </form>
+
+            
+        </div>
+
+
+        <div id="sem2" class="se">
+            <h2>Semester 2</h2>
+            <H3 class="sg">SGPA: </H3>
+            <form action="submit.php">
+                <div class="form-container">
+                    <div class="form">
+                        <div class="subject"><input type="text" name="subject1" placeholder="Enter the subject"></div>
+                        <div class="credit">
+                            credit:
+                            <input type="number" name="credits1" class="credit1">
+                        </div>
+                        <div class="grade">
+                            grade:
+                            <input type="number" name="grades1" class="grade1">
+                        </div>
+                        <button type="button" class="minus-button">-</button>
+                    </div>
+                </div>
+                <button class="plus-button">+</button>
+            </form>
+            
+        </div>
+        
+
+        <div id="sem3" class="se">
+            <h2>Semester 3</h2>
+            <h3 class="sg">SGPA: </h3>
+            <form action="submit.php">
+                <div class="form-container">
+                    <div class="form">
+                        <div class="subject"><input type="text" name="subject1" placeholder="Enter the subject"></div>
+                        <div class="credit">
+                            credit:
+                            <input type="number" name="credits1" class="credit1">
+                        </div>
+                        <div class="grade">
+                            grade:
+                            <input type="number" name="grades1" class="grade1">
+                        </div>
+                        <button type="button" class="minus-button">-</button>
+                    </div>
+                </div>
+                <button class="plus-button">+</button>
+            </form>
+            
+        </div>
+
+        <div id="sem4" class="se">
+            <h2>Semester 4</h2>
+            <h3 class="sg">SGPA: </h3>
+            <form action="submit.php">
+                <div class="form-container">
+                    <div class="form">
+                        <div class="subject"><input type="text" name="subject1" placeholder="Enter the subject"></div>
+                        <div class="credit">
+                            credit:
+                            <input type="number" name="credits1" class="credit1">
+                        </div>
+                        <div class="grade">
+                            grade:
+                            <input type="number" name="grades1" class="grade1">
+                        </div>
+                        <button type="button" class="minus-button">-</button>
+                    </div>
+                </div>
+                <button class="plus-button">+</button>
+            </form>
+            
+        </div>
+
+        <div id="sem5" class="se">
+            <h2>Semester 5</h2>
+            <h3 class="sg">SGPA: </h3>
+            <form action="submit.php">
+                <div class="form-container">
+                    <div class="form">
+                        <div class="subject"><input type="text" name="subject1" placeholder="Enter the subject"></div>
+                        <div class="credit">
+                            credit:
+                            <input type="number" name="credits1" class="credit1">
+                        </div>
+                        <div class="grade">
+                            grade:
+                            <input type="number" name="grades1" class="grade1">
+                        </div>
+
+                        <button type="button" class="minus-button">-</button>
+                    </div>
+                </div>
+                <button class="plus-button">+</button>
+            </form>
+            
+        </div>
+        <div class="se" id="sem6">
+            <h2>Semester 6</h2>
+            <h3 class="sg">SGPA: </h3>
+            <form action="submit.php">
+                <div class="form-container">
+                    <div class="form">
+                        <div class="subject"><input type="text" name="subject1" placeholder="Enter the subject"></div>
+                        <div class="credit">
+                            credit:
+                            <input type="number" name="credits1" class="credit1">
+                        </div>
+                        <div class="grade">
+                            grade:
+                            <input type="number" name="grades1" class="grade1">
+                        </div>
+                        <button type="button" class="minus-button">-</button>
+                    </div>
+                </div>
+                <button class="plus-button">+</button>
+            </form>
+            
+        </div>
+
+        <div class="se" id="sem7">
+            <h2>Semester 7</h2>
+            <h3 class="sg">SGPA: </h3>
+            <form action="submit.php">
+                <div class="form-container">
+                <div class="form">
+                    <div class="subject"><input type="text" name="subject1" placeholder="Enter the subject"></div>
+                    <div class="credit">
+                        credit:
+                        <input type="number" name="credits1" class="credit1">
+                    </div>
+                    <div class="grade">
+                        grade:
+                        <input type="number" name="grades1" class="grade1">
+                    </div>
+                    <button type="button" class="minus-button">-</button>
+
+                </div>
+                </div>
+                <button class="plus-button">+</button>
+            </form>
+            
+        </div>
+        <div class="se" id="sem8">
+            <h2>Semester 8</h2>
+            <h3 class="sg">SGPA: </h3>
+            <form action="submit.php">
+                <div class="form-container">
+                <div class="form">
+                    <div class="subject"><input type="text" name="subject1" placeholder="Enter the subject"></div>
+                    <div class="credit">
+                        credit:
+                        <input type="number" name="credits1" class="credit1">
+                    </div>
+                    <div class="grade">
+                        grade:
+                        <input type="number" name="grades1" class="grade1">
+                    </div>
+                    <button type="button" class="minus-button">-</button>
+
+                </div>
+                </div>
+                <button class="plus-button">+</button>
+            </form>
+            
+        </div>
+    </div>
+    <script src="scriptsheets/calci.js"></script>
+    <script src="scriptsheets/add.js"></script>
+    <script src="scriptsheets/del.js"></script>
+    <script src="scriptsheets/scroll.js"></script>
+    <script src="scriptsheets/check.js"></script>
 </body>
+
 </html>

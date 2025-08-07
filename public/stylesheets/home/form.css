@@ -1,0 +1,25 @@
+.subject {
+    width: 100px;
+    padding: 20px;
+    display: inline-block;
+    
+}
+
+.credit {
+    position: relative;
+    padding: 20px;
+    left: 100px;
+    display: inline-block;
+
+}
+
+#credit {
+    width: 50px;
+}
+
+.grade {
+    position: relative;
+    padding: 20px;
+    left: 200px;
+    display: inline-block;
+}

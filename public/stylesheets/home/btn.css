@@ -1,0 +1,61 @@
+.plus-button {
+    position: relative;
+    left: 400px;
+    top: -45px;
+    display: inline-block;
+}
+.plus-button {
+      font-size: 24px;
+      width: 30px;
+      height: 30px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      transition: background-color 0.2s ease;
+    }
+
+    .plus-button:hover {
+      background-color: #45a049;
+    }
+    
+  
+
+.minus-button {
+    background-color: #4CAF50;        /* Red color for delete action */
+    color: white;                     /* White text */
+    border: none;                     /* No default border */
+                   
+    font-size: 24px;                  /* Text size */
+    border-radius: 50%;               /* Rounded corners */
+    cursor: pointer;                  /* Pointer cursor on hover */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    position: relative;
+    top: 15px;
+    left: 200px;
+    width: 30px;
+    height: 30px;
+}
+
+.minus-button:hover {
+    background-color: #45a049;        /* Darker red on hover */
+    transform: scale(1.05);           /* Slight grow effect */
+}
+
+.minus-button:active {
+    transform: scale(0.95);           /* Click press effect */
+}
+.cal {
+    display: block;
+    margin: auto;
+    padding: 10px 20px;
+    margin-bottom: 10px ;
+}
+form:first-of-type {
+    cursor: default;
+}
